@@ -32,12 +32,12 @@ var apifetch = fetch(API)
     longitude,
   }) {
     document.body.innerHTML += ` <div class="container d-flex flex-row">
-    <div class="card"  >
+    <div class=" card"  >
          <div class="card-header">
     ${name}
   </div>
 
-  <div class="card-body car" >  
+  <div class="card-body" >  
   <img src="${flag}" class="flag" alt="${name}'Flag image">
   <p class="card-text"><span>Captial :</span> ${capital}</p>
   <p class="card-text"><span>Region :</span> ${region}</p>
