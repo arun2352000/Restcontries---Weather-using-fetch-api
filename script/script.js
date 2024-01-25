@@ -63,7 +63,7 @@ var apifetch = fetch(API)
       .then((response) => response.json())
       .then((data) => {
           
-        console.log(data.main.humidity);
+        // console.log(data.main.humidity);
         
         alert(`
                For ${name.id}  

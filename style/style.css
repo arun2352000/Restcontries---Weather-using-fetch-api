@@ -14,13 +14,17 @@ span {
 }
 
 .card {
-    
+    justify-content: center;
+    width: 18rem;
 
 }
 .card-header{
     background-color: rgb(0, 0, 0) !important;
     color: white;
-    
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
 }
 
 .card-body{
@@ -30,7 +34,7 @@ span {
     justify-content: center;
     place-content: center;
     text-align: center;
-    /* padding: 2rem; */
+    padding: 1rem;
     width: 10rem;
     height: 10rem;
     margin: auto;
