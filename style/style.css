@@ -39,6 +39,7 @@ span {
 }
 
 .card-body {
-    background-color: rgb(81, 96, 91);
+    background-color: linear-gradient(to right, rgb(221, 202, 163), rgb(64, 82, 82));
+    /* background-color: rgb(81, 96, 91); */
     
 }
